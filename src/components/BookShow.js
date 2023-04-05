@@ -2,7 +2,7 @@ import { useState } from "react";
 import BookEdit from "./BookEdit";
 
 function BookShow({ book, onDelete, onEdit }) {
-  //   console.log("BookShow", book);
+//   console.log("BookShow", book);
 
   const [showEdit, setShowEdit] = useState(false);
 
